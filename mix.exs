@@ -4,8 +4,8 @@ defmodule Capuli.MixProject do
   def project do
     [
       app: :capuli,
-      version: "0.3.0",
-      elixir: "~> 1.6",
+      version: "0.4.0",
+      elixir: "~> 1.7",
       elixirc_paths: elixirc_paths(Mix.env),
       start_permanent: Mix.env() == :prod,
 			description: description(),
@@ -27,7 +27,7 @@ defmodule Capuli.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:floki, "~> 0.19.0"}
+      {:floki, "~> 0.30.0"}
     ]
   end
 
